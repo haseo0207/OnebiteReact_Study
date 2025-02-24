@@ -4,7 +4,7 @@ import Controller from "./components/Controller";
 import { useState, useEffect, useRef } from "react";
 import Even from "./components/Even";
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0);
   const [input, setInput] = useState(0);
   const isMount = useRef(false);

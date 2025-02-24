@@ -8,7 +8,7 @@ import Count from './components/Count'
 import Register from './components/Register'
 import HookExam from './components/HookExam'
 
-function App() {
+const App = () => {
   const buttonProps = {
     text: "메일",
     color: "red",
